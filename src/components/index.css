@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+html {
+  height: 100%;
+}
+.loding {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  user-select: none;
+  overflow-x: hidden;
+}
+.Top__nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  backdrop-filter: blur(1px);
+  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
+  display: flex;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  flex-flow: row;
+  opacity: 0.9;
+  padding: 0;
+}
+.Top__nav__blur {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+
+  z-index: 1;
+  opacity: 0.8;
+  background: #fafffd;
+}
+
+.Top__nav .Nav__title {
+  color: white;
+  font-weight: 800;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.Top__nav .Nav__title .img {
+  height: 80%;
+  margin-left: 10px;
+
+  display: flex;
+  padding-top: 18px;
+
+  justify-content: center;
+  width: 80px;
+}
+.Top__nav .Nav__title .img img {
+  max-width: 100%;
+  max-height: 100%;
+  top: -15%;
+  position: relative;
+  user-select: none;
+}
+.Top__nav .Nav__search {
+  color: black;
+  font-weight: 800;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vmax;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  width: 20%;
+}
+.Main__body {
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 8vmax;
+}
+.List__container {
+  width: 100%;
+  height: auto;
+  padding-top: 16px;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+.list__component__container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+.List__component {
+  width: 96%;
+  height: 96%;
+  overflow: hidden;
+  background-color: #09552e;
+  border: 1px solid rgb(228, 228, 228);
+}
+.Data_container {
+  width: 98.5%;
+  height: 97.5%;
+  background-color: #fff;
+  border: 3px solid #fff;
+  box-shadow: inset 0px 2px 2px rgba(50, 50, 50, 0.6);
+  background: linear-gradient(130deg, #46a08c 0%, #1c3f1d 100%, #303030 90%);
+}
+.Data_container .name {
+  width: 100%;
+  height: 20%;
+  color: #fff;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.Data_container .dob {
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+}
+
+.Data_container .status {
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+.Data_container .occupation {
+  width: 90%;
+  height: 10%;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 10px;
+  font-family: sans-serif;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  backdrop-filter: blur(1px);
+  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
+  top: 93%;
+  z-index: 2;
+  flex-flow: row;
+  opacity: 0.9;
+  padding: 0;
+}
+.footerblur {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 93%;
+  z-index: 1;
+  opacity: 0.8;
+  background: #fafffd;
+}
+.btn {
+  width: 20%;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  float: left;
+  user-select: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+Link {
+  text-decoration: none;
+}
+.chracter {
+  height: auto;
+  width: 100%;
+  padding-bottom: 40vh;
+}
+.chracter_block {
+  height: 50%;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  overflow: hidden;
+  user-select: none;
+  flex-flow: column;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+.left {
+  height: 100%;
+  width: 30%;
+}
+.right {
+  height: 100%;
+  width: 50%;
+}
+.chracter_block img {
+  width: 30%;
+  max-height: 50%;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+.chracter_block_bck {
+  height: 52%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+  overflow: hidden;
+  user-select: none;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  top: -2%;
+  z-index: 0;
+  filter: blur(5px);
+}
+.chracter_block_details {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  flex-flow: column;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+.chracter_block_details .block {
+  width: 100%;
+
+  font-family: sans-serif;
+
+  color: #ccc;
+}
+.name {
+  font-size: 30px;
+  display: flex;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+}
+.birthday {
+  display: flex;
+  align-items: center;
+  height: 10%;
+  justify-content: center;
+}
+.occupation {
+  font-size: 20px;
+  height: auto;
+  padding-left: 30px;
+}
+.occupation p {
+  padding-left: 70px;
+  font-size: 20px;
+}
+/*new chracter page*/
+.character_body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.character_body .head {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+  flex-flow: row;
+  padding-top: 70px;
+}
+.left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left img {
+  width: 85%;
+  max-height: 90%;
+}
+.right {
+  width: 60%;
+  padding-top: 60px;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+.right .blocks {
+  width: 100%;
+  font-family: sans-serif;
+}
+.names {
+  height: 10%;
+}
+.right .blocks p {
+  font-size: 12px;
+  padding-left: 16px;
+}
+.occupations {
+  height: auto;
+  line-height: 13px;
+}
+.bar {
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  font-family: sans-serif;
+  border-top: 1px solid #f2f2f2;
+}
+
+.quote {
+  width: 99%;
+  max-width: 100%;
+  height: 70px;
+  padding-left: 10px;
+  display: flex;
+
+  align-items: center;
+  background-color: #fff;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-family: sans-serif;
+  border-top: 1px solid #f2f2f2;
+}
