@@ -13,8 +13,11 @@ const Listcomponent = (props) => {
           <div className="name">{props.name}</div>
           <div className="dob">{props.dob}</div>
           <div className="status">{props.status}</div>
-          <div className="occupation">{props.occupation}</div>
-          <a href="/l"></a>
+          <div className="occupation">
+            {props.occupation.map((p, index) => {
+              return index === 0 ? p : ", " + p;
+            })}
+          </div>
         </div>
       </div>
     </div>

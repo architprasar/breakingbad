@@ -3,7 +3,6 @@ import ListC from "./listcomponent.js";
 
 class listcontainer extends React.Component {
   render() {
-    console.log(this.props.items);
     let list = new Array();
     for (
       let i = this.props.perpage * this.props.currentpage, x = 0;
@@ -25,7 +24,7 @@ class listcontainer extends React.Component {
         />
       );
     }
-    console.log(list);
+
     return <div className="List__container">{list}</div>;
   }
 }

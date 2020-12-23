@@ -148,7 +148,7 @@ body {
   width: 90%;
   height: 10%;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px 10px;
   font-family: sans-serif;
   word-break: break-all;
@@ -190,96 +190,6 @@ body {
   font-weight: bold;
   font-family: sans-serif;
 }
-Link {
-  text-decoration: none;
-}
-.chracter {
-  height: auto;
-  width: 100%;
-  padding-bottom: 40vh;
-}
-.chracter_block {
-  height: 50%;
-  width: 100%;
-  display: flex;
-
-  justify-content: center;
-  overflow: hidden;
-  user-select: none;
-  flex-flow: column;
-  position: relative;
-  top: 0;
-  z-index: 1;
-}
-.left {
-  height: 100%;
-  width: 30%;
-}
-.right {
-  height: 100%;
-  width: 50%;
-}
-.chracter_block img {
-  width: 30%;
-  max-height: 50%;
-  border: 3px solid #fff;
-  z-index: 1;
-}
-.chracter_block_bck {
-  height: 52%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  justify-content: center;
-  overflow: hidden;
-  user-select: none;
-  position: absolute;
-  background-position: center;
-  background-size: cover;
-  top: -2%;
-  z-index: 0;
-  filter: blur(5px);
-}
-.chracter_block_details {
-  height: 100%;
-  width: 100%;
-  user-select: none;
-  flex-flow: column;
-  position: relative;
-  top: 0;
-  z-index: 1;
-}
-.chracter_block_details .block {
-  width: 100%;
-
-  font-family: sans-serif;
-
-  color: #ccc;
-}
-.name {
-  font-size: 30px;
-  display: flex;
-  height: 10%;
-  align-items: center;
-  justify-content: center;
-}
-.birthday {
-  display: flex;
-  align-items: center;
-  height: 10%;
-  justify-content: center;
-}
-.occupation {
-  font-size: 20px;
-  height: auto;
-  padding-left: 30px;
-}
-.occupation p {
-  padding-left: 70px;
-  font-size: 20px;
-}
-/*new chracter page*/
 .character_body {
   width: 100%;
   height: 100vh;

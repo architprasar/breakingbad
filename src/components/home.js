@@ -12,7 +12,7 @@ class home extends React.Component {
       items: null,
       perpage: 10,
       total: null,
-      currentpage: 2,
+      currentpage: 0,
       upperbound: 6,
       lowerbound: 0,
     };

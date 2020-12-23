@@ -14,7 +14,7 @@ class character extends React.Component {
       const result = await axios(
         "https://www.breakingbadapi.com/api/characters/" + id
       );
-      console.log(result.status);
+
       this.setState({ character: result.data[0] });
       const quotes = await axios(
         "https://www.breakingbadapi.com/api/quote?author=" + result.data[0].name
@@ -112,7 +112,7 @@ class character extends React.Component {
       );
     }
 
-    return <div className="loading">Loading...</div>;
+    return <div className="loding">Loading...</div>;
   }
 }
 
